@@ -1,0 +1,100 @@
+
+
+body {
+    background-image: url("../img/subway.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    height: 100vh;
+}
+
+
+.container {
+    /* background: #cc2b5e → #753a88; */
+    background: linear-gradient(20deg, rgba(177, 40, 97, 0.6), rgba(150, 64, 150, 0.4), 
+    rgba(0, 128, 0, 0.4),rgba(255, 255, 0, 0.2),rgba(0, 183, 255, 0.6));
+    max-width: 70%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    }
+
+
+h1 {
+    /* color: linear-gradient(to bottom rgb(255, 0, 0), rgb(0, 128, 0), rgb(0, 0, 255));
+    background-color: #4158D0; */
+    /* color: linear-gradient(43deg, #4158D0 0%, #C850C0 30%, #FFCC70 66%, #b3f790 100%); */
+    color: red;
+    translate:scale(2, 2);
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition:all 0.42s 0s ease-in-out;
+}
+
+
+h1:hover {
+    font-size: 32px;
+    /* translate:translate(2.2, 2.2); */
+    /* transform: scale(); */
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+
+#increment-btn {
+    padding:14px;
+    border:solid 4px rgb(255, 0, 0);    
+    font-weight:bold;
+    font-size: 100%;
+    color:rgb(255, 255, 255);
+    background:rgb(255, 75, 75);  
+    margin: auto -15px;
+}
+
+
+button {
+    border-radius: 12px;
+    margin:6px;
+    /* border:solid 4px rgb(255, 0, 0); */
+    transition: all 0.28s 0s linear;
+}
+
+#increment-btn:hover {
+    padding:20px;
+    color:rgb(0, 0, 0);
+}
+
+
+#save-btn {
+    padding: 14px;      
+    background: rgb(39, 202, 39);
+    border:solid 4px green;   
+    color: antiquewhite;
+    font-size: 100%;
+    font-weight: bold;
+    margin: auto 34px;
+}
+
+
+#save-btn:hover {
+    color:rgb(0, 0, 0);
+    padding: 20px;
+}
+
+
+p {
+    color:white;
+}
+
+p:hover {
+    color:blanchedalmond;
+}
+
+
+
